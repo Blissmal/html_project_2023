@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+
+.hero-bg {
+    background: #307D99 url("https://bliss.org.br/wp-content/uploads/2021/04/logo_retina-1.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+header {
+    padding: 1em 0;
+}
+
+.hero-bg a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+section {
+    margin: 0 1em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 2em 0 1.2em;
+}
+
+h1 span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-bg p {
+    font-weight: bold;
+    margin: 0 1em 3em;
+}
+
+
+.right-col {
+    text-align: center;
+    margin: 3em 1em;
+}
+
+h2 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.9);
+    z-index: 1;
+    place-content: center;
+    color: white;
+    display: none;
+    opacity: 0;
+}
+
+section {
+        margin: 0 4em;
+    }
+.hero-bg {
+        text-align: left;
+    }
+
+.hero-bg p {
+        margin: 0 0 3em;
+    }
+
+.hero-bg section {
+        width: 65%;
+    }
+
+
+.hero-bg p {
+        margin-bottom: 0;
+    }
+
+
+.right-col {
+        grid-area: content;
+        padding: 0 10%;
+        text-align: left;
+        align-self: center;
+    }
+
+h2 {
+        margin: 0;
+    }
+.authentic{
+    color: white;
+}
+table, th, tr, td{
+    border: 1px solid saddlebrown;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: saddlebrown;
+}
+td{
+    background-color: black;
+}
+
+
+
+
